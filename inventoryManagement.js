@@ -1,14 +1,21 @@
 // Write your code here
-const products =["Laptop", "Phone", "Headphones", "Monitor"]; 
+const products =["Laptop", "Phone", "Headphones", "Monitor"];
 
-logFirstProduct (products) =["laptop", "Phone", "Headphones", "Monitor"]
-console.log(products)
-  
-addproduct (arguement)
-  
-updateProductName (arguements)
+function logFirstProduct (Laptop) {
+  console.log(Laptop);
+}
 
-removeLastProduct (this.removeLastProduct)
+function addproduct(newProduct) {
+  newProduct =(arqument);
+}
+
+function updateProductName (products, newName) {
+  products.newName = arguments;
+}
+
+function removeLastProduct (removeLastProduct) {
+  removeLastProduct("monitor")
+}
 
 
 // Export the necessary parts for testing
