@@ -1,20 +1,20 @@
 // Write your code here
-const products =["Laptop", "Phone", "Headphones", "Monitor"];
+let products =["Laptop", "Phone", "Headphones", "Monitor"];
 
-function logFirstProduct (Laptop) {
-  console.log(Laptop);
+function logFirstProduct (products) {
+  console.log(products);
 }
 
-function addproduct(newProduct) {
+function addproduct (newProduct) {
   newProduct =(arqument);
 }
 
 function updateProductName (products, newName) {
-  products.newName = arguments;
+  products.newName = (arguments);
 }
 
-function removeLastProduct (removeLastProduct) {
-  removeLastProduct("monitor")
+function removeLastProduct (products) {
+  console.log(products)
 }
 
 
