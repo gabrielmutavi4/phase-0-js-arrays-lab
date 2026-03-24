@@ -1,5 +1,14 @@
 // Write your code here
+const products =["Laptop", "Phone", "Headphones", "Monitor"]; 
 
+logFirstProduct (products) =["laptop", "Phone", "Headphones", "Monitor"]
+console.log(products)
+  
+addproduct (arguement)
+  
+updateProductName (arguements)
+
+removeLastProduct (this.removeLastProduct)
 
 
 // Export the necessary parts for testing
