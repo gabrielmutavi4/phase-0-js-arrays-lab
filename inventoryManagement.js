@@ -1,32 +1,22 @@
 // Write your code here
 const products = ["Laptop", "Phone", "Headphones", "Monitor"];
 
-function logFirstProduct(products) {
-  if (products.length > 0) {
+function logFirstProduct() {
     console.log(products[0]);
-  } else {
-    console.log("products array is empty.");
-  }
 }
 
-function addProduct(products, newProduct) {
+function addProduct(newProduct) {
   products.push(newProduct);
 }
 
-function updateProductName(products, index, newName) {
+function updateProductName(index, newName) {
   if (index >= 0 && index < products.length) {
     products[index] = newName;
-  } else {
-    console.log("Invalid product index.");
-  }
+}
 }
 
-function removeLastProduct(products) {
-  if (products.length > 0) {
+function removeLastProduct() {
     products.pop();
-  } else {
-    console.log("The products array is already empty.");
-  }
 }
 
 // Export the necessary parts for testing
